@@ -1,0 +1,43 @@
+{
+  "name": "browser-wav-recorder",
+  "version": "0.0.0",
+  "description": "WAV recorder on browser",
+  "main": "dest/index.js",
+  "types": "dest/index.d.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stkay/browser-wav-recorder.git"
+  },
+  "keywords": [
+    "record",
+    "sound",
+    "voice",
+    "webaudio",
+    "wav"
+  ],
+  "author": "stkay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stkay/browser-wav-recorder/issues"
+  },
+  "homepage": "https://github.com/stkay/browser-wav-recorder#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {}
+}
